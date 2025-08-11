@@ -1,0 +1,53 @@
+/* Colores de Mosaico */
+:root {
+    --color-fondo: #f5f5f5; /* Un gris muy claro */
+    --color-principal: #333; /* Gris oscuro para el texto */
+    --color-acento: #b0c4de; /* Azul pálido para detalles */
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-principal);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+/* Estilo para el encabezado */
+header {
+    padding: 2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 300; /* Fuente más fina para un look minimalista */
+    margin: 0;
+}
+
+p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: var(--color-principal);
+    color: var(--color-fondo);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 50px; /* Bordes redondos para el look moderno */
+    transition: background-color 0.3s;
+    margin-bottom: 2em;
+}
+
+button:hover {
+    background-color: var(--color-acento);
+}
